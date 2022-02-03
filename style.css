@@ -1,0 +1,46 @@
+header {
+  min-height: 30vh;
+  background-image: url(https://static.wixstatic.com/media/044396_80764eb43fc74227ab6f304f0eea0ebb~mv2.jpg/v1/fill/w_1176,h_164,al_c,lg_1,q_80/044396_80764eb43fc74227ab6f304f0eea0ebb~mv2.webp)
+}
+
+.second-section {
+  min-height: 25vh;
+  background-color: black;
+}
+
+.third-section {
+  display: flex;
+  min-height: 25vh;
+  justify-items: center;
+  background-color: #c4bebe65;
+  margin-left: 0;
+  margin-right:0;
+  width: 100%;
+}
+
+.git-logo {
+  max-height: 200px;
+  align-items: center;
+}
+
+.padding {
+  padding-left: none;
+  padding-right: none;
+}
+
+footer {
+  min-height: 17.5vh;
+  background-color: black;
+  bottom: 0;
+  position: fixed;
+}
+
+.footer-content {
+  justify-content: space-evenly;
+}
+
+.footer-links {
+  text-decoration-color: none;
+  text-decoration-style: none;
+  text-decoration-line: none;
+}

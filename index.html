@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CloneSite</title>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body.debug .container body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+
+    body.debug [class*=\"col-\"] {
+      /* background-color: rgba(255, 255, 255, 0.267); */
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+</head>
+
+<body class="">
+  <header class="container-fluid bg-danger mb-1 align-items-right">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light navbar-opacity">
+      <div class="container">
+        <a class="navbar-brand" href="#">Work</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+          <ul class="navbar-nav me-auto mt-1 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About <span class="visually-hidden">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Expertise</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownId">
+                <a class="dropdown-item" href="#">Blog</a>
+                <a class="dropdown-item" href="#">Store</a>
+              </div>
+            </li>
+          </ul>
+          <form class="d-flex my-2 my-lg-0">
+            <input class="form-control me-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-warning rounded-pill my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <img
+      src="https://cdn11.bigcommerce.com/s-ec3t5d56yg/images/stencil/853x100/2017_crwnmpl_logo_1493836671__31863.original.jpg"
+      alt="">
+  </header>
+
+  <main class="container-fluid ">
+    <div class="row second-section">
+      <div class="col-6 m-auto text-light">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum exercitationem, omnis sapiente error nemo
+          consequuntur eligendi nulla in laboriosam iste quod aspernatur voluptates illo minima autem, recusandae,
+          maxime non? Aut!</p><button class="btn btn-warning rounded-pill ">Learn More</button>
+      </div>
+    </div>
+    <div class="container-fluid third-section m-0 no-gutters">
+      <div class="row col-9 m-auto justify-content-center">
+        <div class="col d-flex justify-content-center">
+          <a href="https://crownmaple.store/" target="_blank">
+            <img class="text-center img-fluid git-logo p-2"
+              src="https://media.istockphoto.com/photos/maple-trees-in-spring-cabane-a-sucre-picture-id183820600?k=20&m=183820600&s=612x612&w=0&h=yjcTEZNhldwVVjCZaG1w0mkjcxnDK6EPQdMhgdcJSpQ="
+              alt="">
+          </a>
+        </div>
+        <div class="col d-flex justify-content-center"><a href="https://crownmaple.store/" target="_blank">
+            <img class="text-center img-fluid p-2"
+              src="https://media.istockphoto.com/photos/maple-syrup-in-glass-bottle-on-wooden-table-picture-id538184814?b=1&k=20&m=538184814&s=170667a&w=0&h=iq0q0V74N72dSNe3kwHfMRuVL-XIkRF3FPKvzB60efg="
+              alt="">
+          </a></div>
+        <div class="col d-flex justify-content-center"><a href="https://crownmaple.store/" target="_blank">
+            <img class="img-fluid git-logo p-2"
+              src="https://media.istockphoto.com/photos/roll-maple-syrup-closeup-picture-id185243347?k=20&m=185243347&s=612x612&w=0&h=Ja8KuZrOzRYUZCMKQ8HToAanNUtAjOFeQsJzQHfteQQ="
+              alt="">
+          </a></div>
+      </div>
+  </main>
+
+  <footer class="container-fluid">
+    <div class="row">
+      <div class="col-6 text-light d-flex mt-4 pt-3 footer-content">
+        <div>
+          <a href="https://www.crownmaple.com/" target="_blank">
+            <p class="footer-links">Jobs</p>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.crownmaple.com/" target="_blank">
+            <p>Store</p>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.twitter.com/" target="_blank">
+            <p>Twitter</p>
+          </a>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/" target="_blank">
+            <p>Facebook</p>
+          </a>
+        </div>
+      </div>
+      <div class="col-6 text-light d-flex mt-4 p-3 footer-content justify-content-space-between">
+        <h4>612.315.5270</h4>
+        <h5>hello@studiomaple.com</h5>
+      </div>
+      <div></div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+</body>
